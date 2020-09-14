@@ -51,6 +51,9 @@ Module.symvers
 /vmlinuz
 /System.map
 /Module.markers
+/clang
+/AnyKernel
+/out
 
 #
 # Debian directory (make deb-pkg)
@@ -121,6 +124,3 @@ android/configs/android-*.cfg
 #Ignoring Android.bp link file
 #
 Android.bp
-
-# Object directory
-out/
